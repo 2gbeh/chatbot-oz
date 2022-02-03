@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+.landing .loader {
+	-webkit-animation-delay:1s;
+	animation-delay:1s;}
+
+.chat-window .delay-1 {
+	margin-top:10px;
+	opacity:0;
+	animation:fadein .2s linear 1s forwards;}
+.chat-window .delay-2 {
+	margin-top:10px;	
+	opacity:0;
+	animation:fadein .2s linear 3s forwards;}
+@keyframes fadein
+{
+	from {margin-top:10px;opacity:0;}
+	to {margin-top:0; opacity:1;}
+}
+
+.chatroom input[type="text"] {
+	animation:expand .4s ease-out .1s;}
+@keyframes expand 
+{
+	from {width:220px;}
+	to {width:320px; background-color:#FF9;}
+}

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+body {text-align:center;}
+header {
+	top:10px;
+	position:fixed;
+	width:100%;
+	z-index:99;
+/*	display:none;*/}
+header a {
+	color:blue;
+	margin:0 5px;
+	display:inline-block;}
+footer {
+	color:#EE1111;		
+	bottom:10px;
+	position:fixed;
+	width:100%;}
+a.button {
+	padding:8px 15px;
+	margin:0 5px;
+	color:#FFF;
+	border-radius:5px;}	
+.loader {
+	margin-top:120px;
+	border:15px solid #333;
+	border-top:15px solid #EEE;}
+
+
+.landing a.button {background-color:#16BC00;}
+.landing a.button:hover {background-color:#090;}
+
+
+.gender a#btn-1 {background-color:#58ADFD;}
+.gender a#btn-1:hover {background-color:#2D6EFE;}
+.gender a#btn-2 {background-color:#FD569E;}	
+.gender a#btn-2:hover {background-color:#DA3176;}
+	
+	
+.chatroom .loader {
+	margin-top:40px;	
+	width:50px;
+	height:50px;
+	border:5px solid #333;
+	border-top:5px solid #EEE;}
+.chatroom .chat-window {
+/*	background-color:red;*/
+	margin:20px auto;
+	width:380px;
+	height:400px;
+	overflow:auto;}	
+
+
+.chat-window .bubble {}
+.chat-window .bubble span {	
+	padding:5px 12px;
+	border-radius:5px;
+	box-shadow:0 1px 1px #CCC;}
+.chat-window time {
+	padding:5px;
+	color:#555;
+	font-size:12px;
+	display:block;}
+.chat-window .bot {
+	margin-bottom:10px;
+	text-align:left;}
+.chat-window .user {text-align:right;}	
+.chat-window .bot span {
+	background-color:#FFF;
+	color:#333;}
+.chat-window .user span {
+	background-color:#16BC00;
+	color:#FFF;}	
+
+
+.chatroom .form {
+/*	background-color:red;*/
+	margin:0 auto;
+	width:380px;
+	min-width:380px;}
+.chatroom input {
+	box-shadow:0 1px 1px #CCC;}	
+.chatroom input[type="text"] {
+	padding:10px 15px;
+	width:320px;
+	border:solid thin #DDD;
+	border-radius:20px;}
+.chatroom input[type="text"]:focus {background-color:#FF9;}
+.chatroom input[type="button"] {
+	padding:8px 7px 12px;
+	background-color:#333;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	line-height:0.8;
+	border:0;
+	border-radius:100%;}
+.chatroom input[type="button"]:active {background-color:#DDD;}

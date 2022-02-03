@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Chat Room</title>
+<script src="js/Master.js" type="text/javascript"></script>
+<script src="js/Browser.js" type="text/javascript"></script>
+<script src="js/Cookies.js" type="text/javascript"></script>
+<script src="js/DateTime.js" type="text/javascript"></script>
+<script src="js/Main.js" type="text/javascript"></script>
+<script src="js/Controller.js" type="text/javascript"></script>
+</head>
+<body class="chatroom" onLoad="shell()">
+<header></header>
+<div class="loader"></div>
+<div class="chat-window" id="target">
+    <div class="bubble bot delay">
+    	<span>Hello world, how may i help you today?</span>
+    </div>
+<!--    <div class="bubble user delay">
+    	<span>Wow</span>
+        <time>15:10</time>
+    </div>
+--></div>
+<ul class="form">
+	<li><input type="text" id="source" placeholder="Type a message" onKeyUp="catcher(event,ctrl)" autofocus /></li>
+    <li><input type="button" id="action" value="&rarr;" title="Send Query" onClick="ctrl()" /></li>
+</ul>
+<footer></footer>
+</body>
+</html>

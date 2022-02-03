@@ -1,0 +1,11 @@
+// JavaScript Object Notation (JSON) Document
+{
+"stylesheet":
+[
+	{"dir":"css","name":"Master.css"},
+	{"dir":"css","name":"Loader.css"},
+	{"dir":"css","name":"Template.css"},
+	{"dir":"css","name":"Theme.css"}
+]
+
+}
